@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: LASERDIODE_V1.3.0.PcbDoc   6/24/2025  4:23:13 PM
+NCDrill File Report For: LASERDIODE_V1.3.0.PcbDoc   14/9/25  22:38:57
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -7,12 +7,14 @@ ASCII RoundHoles File : LASERDIODE_V1.3.0.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.2mm (8mil)                                              Round             500       PTH        1437.69mm (56.60inch)
-T2      0.3mm (12mil)                                             Round             242       PTH        580.26mm (22.84inch)
-T3      0.6mm (24mil)                                             Round             216       PTH        957.40mm (37.69inch)
-T4      1.1mm (43mil)                                             Round             14        PTH        33.02mm (1.30inch)
-T5      3.3mm (130mil)                                            Round             10        PTH        314.08mm (12.37inch)
+T1      0.2mm (8mil)            +0.05mm (2mil)                    Round             2         PTH        2.53mm (0.10inch)
+T2      0.3mm (12mil)           +0.05mm (2mil)                    Round             118       PTH        465.93mm (18.34inch)
+T3      0.3mm (12mil)                                             Round             740       PTH        2058.47mm (81.04inch)
+T4      0.51mm (20mil)          +0.05mm (2mil)                    Round             1         PTH        0.00mm (0.00inch)
+T5      0.6mm (24mil)                                             Round             168       PTH        868.59mm (34.20inch)
+T6      0.64mm (25mil)          +0.05mm (2mil)                    Round             12        PTH        84.56mm (3.33inch)
+T7      3.3mm (130mil)                                            Round             10        PTH        314.08mm (12.37inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              982
+Totals                                                                              1051
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
