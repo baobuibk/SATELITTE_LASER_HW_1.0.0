@@ -2,31 +2,17 @@
 FileName = LASERDIODE_V1.3.0.GBR
 AutoAperture = True
 *************************************************************
-Generating : L3_SIGNAL
-      File : LASERDIODE_V1.3.0_Copper_Signal_2.gbr
+Generating : Top Overlay
+      File : LASERDIODE_V1.3.0_Legend_Top.gbr
 
-    Adding Layer      : L3_SIGNAL
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
-    D14
-    D23
-    D24
-    D25
-    D27
-    D28
-    D34
-    D35
-    D36
-    D37
-    D38
-    D43
-    D44
-    D45
-    D46
-    D47
+    D10
+    D11
+    D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -41,6 +27,35 @@ Generating : Top Paste
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : L1_TOP
+      File : LASERDIODE_V1.3.0_Copper_Signal_Top.gbr
+
+    Adding Layer      : L1_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
 *************************************************************
 
 *************************************************************
@@ -90,180 +105,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : LASERDIODE_V1.3.0_Soldermask_Bot.gbr
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : L4_BOT
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D19
-    D20
-    D21
-    D22
-    D23
-    D49
-    D57
-    D59
-    D63
-    D65
-    D68
-    D69
-    D73
-    D89
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : LASERDIODE_V1.3.0_Pads_Top.gbr
-
-    Adding Layer      : L1_TOP
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D34
-    D35
-    D36
-    D37
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : LASERDIODE_V1.3.0_Legend_Bot.gbr
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D48
-    D79
-    D115
-    D116
-    D117
-    D118
-    D119
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : LASERDIODE_V1.3.0_Paste_Bot.gbr
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : L4_BOT
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D56
-    D57
-    D59
-    D60
-    D61
-    D62
-    D63
-    D64
-    D65
-    D66
-    D67
-    D68
-    D69
-    D70
-    D71
-    D72
-    D73
-    D74
-    D75
-    D76
-    D77
-*************************************************************
-
-*************************************************************
-Generating : L1_TOP
-      File : LASERDIODE_V1.3.0_Copper_Signal_Top.gbr
-
-    Adding Layer      : L1_TOP
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D14
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : LASERDIODE_V1.3.0_Legend_Top.gbr
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-*************************************************************
-
-*************************************************************
 Generating : L2_GND
       File : LASERDIODE_V1.3.0_Copper_Signal_1.gbr
 
@@ -284,6 +125,34 @@ Used DCodes :
     D40
     D41
     D42
+*************************************************************
+
+*************************************************************
+Generating : L3_SIGNAL
+      File : LASERDIODE_V1.3.0_Copper_Signal_2.gbr
+
+    Adding Layer      : L3_SIGNAL
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D23
+    D24
+    D25
+    D27
+    D28
+    D34
+    D35
+    D36
+    D37
+    D38
+    D43
+    D44
+    D45
+    D46
+    D47
 *************************************************************
 
 *************************************************************
@@ -379,11 +248,146 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
+Generating : Bottom Paste
+      File : LASERDIODE_V1.3.0_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : L4_BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : LASERDIODE_V1.3.0_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D48
+    D79
+    D119
+    D120
+    D121
+    D122
+    D123
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : LASERDIODE_V1.3.0_Pads_Top.gbr
+
+    Adding Layer      : L1_TOP
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D34
+    D35
+    D36
+    D37
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : LASERDIODE_V1.3.0_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : L4_BOT
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D19
+    D20
+    D21
+    D22
+    D23
+    D51
+    D59
+    D63
+    D68
+    D69
+    D73
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+*************************************************************
+
+*************************************************************
 Generating : Profile
       File : LASERDIODE_V1.3.0_Profile.gbr
 
 
 Used DCodes :
-    D120
+    D124
 *************************************************************
 
